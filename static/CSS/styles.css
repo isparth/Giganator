@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E4E9FD ;
+}
+
+#loginPage .form {
+    margin: 150px auto;
+    width: 400px;
+    background: p;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+
+#loginPage .form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin: 0 0 30px;
+    color: #333;
+}
+
+#loginPage .form #username,
+#loginPage .form #password {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+#loginPage .form button{
+    margin-top: 5%;
+}
+
+
+
+#loginPage .form button:hover {
+    background: darkblue;
+}
+
+#loginPage .form .forgot-password {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#loginPage .form .forgot-password a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+#loginPage .form .forgot-password a:hover {
+    text-decoration: underline;
+}
+
+
+#layoutPage .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b195e2; 
+}
+
+#layoutPage .navbar h1{
+    font-family: 'Shantell Sans', cursive;
+    padding: 1%;
+
+}
