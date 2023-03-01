@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block main %}
+    <div id="registerPage">
+        <div class="form">
+            <form>
+                <h2>Register</h2>
+                <input type="text" placeholder="First name" id="Fname" name="Fname" required>
+                <input type="text" placeholder="Last name" id="Lname" name="Lname" required>
+                <input type="email" placeholder="Email" id="Email" name="Email" required>
+                <input type="password" placeholder="Password" id="password" name="password" required>
+                <input type="text" placeholder="Code" id="Code" name="Code">
+                <button class="btn btn-dark btn-lg" type="submit" name="Register">Register</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </div>
+
+{% endblock %}

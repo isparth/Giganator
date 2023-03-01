@@ -6,7 +6,8 @@ body {
     background-color: #E4E9FD ;
 }
 
-#loginPage .form {
+#loginPage .form,
+#registerPage .form{
     margin: 150px auto;
     width: 400px;
     background: p;
@@ -15,7 +16,8 @@ body {
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 }
 
-#loginPage .form form {
+#loginPage .form form,
+#registerPage .form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +29,12 @@ h2 {
 }
 
 #loginPage .form #username,
-#loginPage .form #password {
+#loginPage .form #password,
+#registerPage .form #Fname,
+#registerPage .form #Lname,
+#registerPage .form #Email,
+#registerPage .form #password,
+#registerPage .form #Code{
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -36,13 +43,15 @@ h2 {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 
-#loginPage .form button{
+#loginPage .form button,
+#registerPage .form button{
     margin-top: 5%;
 }
 
 
 
-#loginPage .form button:hover {
+#loginPage .form button:hover,
+#registerPage .form button:hover {
     background: darkblue;
 }
 
@@ -65,7 +74,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #b195e2; 
+    background-color: #6519e7; 
 }
 
 #layoutPage .navbar h1{
@@ -73,3 +82,11 @@ h2 {
     padding: 1%;
 
 }
+
+#layoutPage .navbar .buttons{
+    padding-right: 2%;
+    
+}
+
+
+
